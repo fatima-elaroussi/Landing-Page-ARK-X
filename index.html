@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ARK-X Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/b92f914f82.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="test.js"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/logo-arkx.png" class="logo" />
+
+          <ul>
+            <li>
+              <a href="#header">Home</a>
+            </li>
+            <li>
+              <a href="#About">About us</a>
+            </li>
+            <li>
+              <a href="#program">Program</a>
+            </li>
+            <li>
+              <a href="#Team">Team</a>
+            </li>
+            <li>
+              <a href="#">Join us</a>
+            </li>
+          </ul>
+        </nav>
+        <p id="into-future">INTO THE FUTURE</p>
+
+        <div class="header-text">
+          <h1>
+            <span>ARKx</span> est un accélérateur de talents en nouvelles
+            technologies
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-- ------------------------About --------------------- -->
+    <div id="About">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="/images/ceo-ark-x.jpg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About us</h1>
+            <p>
+              Nous proposons des services centrés sur les compétences
+              technologiques, allant des bootcamps de montée en compétences et
+              de reconversion au déploiement d'équipes-projet pour nos
+              partenaires.
+            </p>
+            <div class="tab-titles">
+              <p
+                class="tab-links active-link"
+                onclick="opentab('formation',event)"
+              >
+                Formation.
+              </p>
+              <p class="tab-links" onclick="opentab('coaching',event)">
+                Coaching.
+              </p>
+              <p class="tab-links" onclick="opentab('Deploiement',event)">
+                Déploiement
+              </p>
+            </div>
+            <div class="tab-contents active-tab" id="formation">
+              <ul>
+                <li><span>MERN</span><br />Full Stack Web Developper</li>
+                <li><span>JAVA</span><br />Full Stack Web Developper</li>
+                <li>
+                  <span>CyberSecurity</span><br />Consultant CyberSecurity
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="coaching">
+              <ul>
+                <li>
+                  <span>Notre raison d'être</span><br />Accompagner
+                  l'accélération digitale de notre région en proposant des
+                  solutions centrées sur le talent, de qualité mondiale,
+                  accesibles et "at scale"
+                </li>
+                <li>
+                  <span>Inflation des salaires et turnover dans l'IT</span
+                  ><br />Une tension croissante sur les RH et les équipes
+                </li>
+                <li>
+                  <span>Insertion</span><br />les jeunes trouvent un emploi
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Deploiement">
+              <ul>
+                <li>
+                  <span>Orientation</span><br />les jeunes précisent leur projet
+                  professionnel.
+                </li>
+                <li>
+                  <span>Give Back</span><br />les jeunes contribuent au
+                  développement de leur communauté
+                </li>
+                <li>
+                  <span>Sensibilisation</span><br />les jeunes découvrent les
+                  opportunités du digital et leurs talents.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- --------------------------Program------------------- -->
+    <div id="program">
+      <div class="container">
+        <h1 class="sub-title">Our Program</h1>
+        <div class="program-list">
+          <div>
+            <i class="fa-brands fa-js"></i>
+            <h2>MERN Program</h2>
+            <p>
+              Le MERN stack est un ensemble de technologies comprenant MongoDB,
+              Express.js, React.js et Node.js, permettant de créer des
+              applications web modernes et dynamiques. Il offre un environnement
+              complet de développement pour la construction de solutions côté
+              client et côté serveur, favorisant ainsi le développement efficace
+              et la scalabilité des applications.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-java"></i>
+            <h2>JAVA Program</h2>
+            <p>
+              Le Java Full Stack comprend une variété de technologies côté
+              client et côté serveur, telles que Java, Spring Boot, Angular ou
+              React, et des bases de données comme MySQL ou PostgreSQL. Il offre
+              un environnement complet pour le développement d'applications web
+              robustes et évolutives, avec une architecture flexible et une
+              grande communauté de soutien.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-ranking-star"></i>
+            <h2>Coaching Program</h2>
+            <p>
+              Le coaching est un processus interactif qui vise à aider les
+              individus à atteindre leurs objectifs personnels et
+              professionnels. Les coachs fournissent un soutien, des conseils et
+              des stratégies personnalisées pour stimuler la croissance,
+              améliorer les performances et développer le potentiel des clients.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -----------------------Team----------------------- -->
+    <div id="Team">
+      <div class="container">
+        <h1 class="sub-title">Our Team</h1>
+        <div class="team-members">
+          <div class="member">
+            <img src="/images/ceo-ark-x.jpg" width="480px" height="333px" />
+            <div class="layer">
+              <h3>CEO</h3>
+              <p>
+                Depuis 2011, je tente de répondre à la problématique d'accès à
+                l'opportunité pour la jeunesse Marocaine (Africaine et Arabe
+                plus généralement). Le développement de l'économie numérique à
+                l'échelle mondiale crée un besoin de talents sans précédent. La
+                mondialisation du marché du travail dans le secteur des
+                nouvelles technologies est aujourd'hui la norme = Nous vivons
+                opportunité historique pour les jeunes arabes et africains (et
+                pour notre continent). C'est la raison pour laquelle j'ai créé
+                ARK-X.
+              </p>
+              <a href="https://www.linkedin.com/in/hamza-debbarh/"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="member">
+            <img
+              src="/images/coach-abdessamad.jpg"
+              width="480px"
+              height="333px"
+            />
+            <div class="layer">
+              <h3>Coach</h3>
+              <p>
+                I was always interested in technology and coding since my youth
+                and through all those years I discovered my talent which is my
+                ability to solve problems it might take me trials and fails but
+                eventually I come to a solution.
+              </p>
+              <a href="https://www.linkedin.com/in/abdessamadsouilem/"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="member">
+            <img src="/images/laura.jpg" width="480px" height="333px" />
+            <div class="layer">
+              <h3>𝐓𝐚𝐥𝐞𝐧𝐭 𝐌𝐚𝐧𝐚𝐠𝐞𝐫</h3>
+              <p>
+                🌞𝗘𝘅𝗽𝗮𝘁𝗿𝗶é𝗲 𝗯𝗲𝗹𝗴𝗲 𝗮𝘂 𝗠𝗮𝗿𝗼𝗰 𝐚𝐯𝐞𝐜 4̲,5̲a̲n̲s̲ 𝐝'𝐞𝐱𝐩é𝐫𝐢𝐞𝐧𝐜𝐞🌞 👩🏻‍🎓, 𝘮𝘰𝘯 𝘱𝘢𝘳𝘤𝘰𝘶𝘳𝘴 𝘢 𝘵𝘳𝘢𝘤𝘦́ 𝘥𝘦𝘴 𝘱𝘰𝘯𝘵𝘴 𝘦𝘯𝘵𝘳𝘦 𝘥𝘪𝘧𝘧𝘦́𝘳𝘦𝘯𝘵𝘴
+                𝘶𝘯𝘪𝘷𝘦𝘳𝘴. 💼 𝘑'𝘢𝘪 𝘥é𝘣𝘶𝘵é 𝘮𝘢 𝘤𝘢𝘳𝘳𝘪è𝘳𝘦 𝘥𝘶𝘳𝘢𝘯𝘵 𝟐 𝐚𝐧𝐬 𝘦𝘯 𝘵𝘢𝘯𝘵 𝘲𝘶𝘦
+                𝐫𝐞𝐜𝐫𝐮𝐭𝐞𝐮𝐫 𝐞𝐱𝐭𝐞𝐫𝐧𝐞, 𝘴𝘱é𝘤𝘪𝘢𝘭𝘪𝘴é 𝘥𝘢𝘯𝘴 𝘭𝘦 𝘳𝘦𝘤𝘳𝘶𝘵𝘦𝘮𝘦𝘯𝘵 𝘥𝘦 𝘱𝘳𝘰𝘧𝘪𝘭𝘴 𝘐𝘛,
+                𝘪𝘯𝘨é𝘯𝘪𝘦𝘶𝘳 𝘦𝘵 𝘧𝘰𝘯𝘤𝘵𝘪𝘰𝘯𝘴 𝘴𝘶𝘱𝘱𝘰𝘳𝘵. 𝘈𝘶 𝘤𝘰𝘶𝘳𝘴 𝘥𝘦 𝘤𝘦𝘵𝘵𝘦 𝘱é𝘳𝘪𝘰𝘥𝘦, 𝘫'𝘢𝘪
+                𝘥é𝘷𝘦𝘭𝘰𝘱𝘱é 𝘶𝘯𝘦 𝘴𝘰𝘭𝘪𝘥𝘦 𝘦𝘹𝘱𝘦𝘳𝘵𝘪𝘴𝘦 𝘥𝘢𝘯𝘴 𝘭'𝘪𝘥𝘦𝘯𝘵𝘪𝘧𝘪𝘤𝘢𝘵𝘪𝘰𝘯 𝘦𝘵
+                𝘭'é𝐯𝐚𝐥𝐮𝐚𝐭𝐢𝐨𝐧 𝐝𝐞𝐬 𝐭𝐚𝐥𝐞𝐧𝐭𝐬.
+              </p>
+              <a href="https://www.linkedin.com/in/laura-oliveri12/"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <p>
+        Copyright &copy;2024 ARK-X. Made with
+        <i class="fa-sharp fa-solid fa-heart"></i> by ARK-X
+      </p>
+    </div>
+  </body>
+</html>
